@@ -13,7 +13,7 @@ export const STORE_CONFIG = {
     phoneDisplay: '+91 98450 18960',
     phoneRaw: '9845018960',
     whatsappDisplay: '+91 98450 18960',
-    whatsappRaw: '9845018960',
+    whatsappRaw: '7407004397',
     email: 'hello@estate1896.coffee',
     address: {
       buildingOrHouse: 'The Heritage Villa, No. 42',

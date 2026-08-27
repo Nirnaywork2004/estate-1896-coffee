@@ -8,15 +8,15 @@
  */
 export function isValidIndianMobile(phone: string): boolean {
   const cleaned = phone.replace(/\D/g, '');
-  
+
   if (cleaned.length === 10) {
     return /^[6-9]\d{9}$/.test(cleaned);
   }
-  
+
   if (cleaned.length === 12 && cleaned.startsWith('91')) {
     return /^91[6-9]\d{9}$/.test(cleaned);
   }
-  
+
   if (cleaned.length === 11 && cleaned.startsWith('0')) {
     return /^0[6-9]\d{9}$/.test(cleaned);
   }
@@ -49,7 +49,7 @@ export function formatIndianPhone(phone: string): string {
 }
 
 /**
- * Returns phone in international format for WhatsApp / tel links: 919845018960
+ * Returns phone in international format for WhatsApp / tel links: 917407004397
  */
 export function getWhatsAppPhone(phone: string): string {
   const raw = normalizeIndianPhone(phone);
